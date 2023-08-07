@@ -4,6 +4,6 @@ import { PushStkController } from './push-stk.controller';
 
 @Module({
   controllers: [PushStkController],
-  providers: [PushStkService]
+  providers: [PushStkService],
 })
 export class PushStkModule {}
